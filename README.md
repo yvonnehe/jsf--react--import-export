@@ -17,13 +17,15 @@ Create a file for each component inside `src/components`, the file should be nam
 
 Use exports and imports to hook the file up so it works the same as before splitting out the components
 
+**Important:** You must import React at the top of each component using the line: `import React from 'react';`
+
 ### Export
 
 put `export default` before the function keyword to export the component e.g. `export default function ComponentName() { ...`
 
 ### Import
 
-Use `import ComponentName from "./path/to/ComponentName.js"` at the top of the file to import that component.
+Use `import ComponentName from './path/to/ComponentName.js';` at the top of the file to import that component.
 
 You need to import a component any place that it is used.
 
